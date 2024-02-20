@@ -12,7 +12,6 @@ function LoginForm({ onLoginSuccess }) {
       setErrorMessage('Username and password are required.');
       return false;
     }
-    // Add any other validation rules here
     return true;
   };
 
