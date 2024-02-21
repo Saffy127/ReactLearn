@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Fact({ token }) {
-	//const [fact, setFact] = React.useState('');
+	const [fact, setFact] = React.useState('');
 
 	// See Word document for code example on fetching a fact.
 
